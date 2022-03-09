@@ -6,7 +6,7 @@ A command-line wrapper for generating PDF prints and PNG screenshots with [Puppe
 ## Install
 
 ```bash
-npm install -g puppeteer-cli
+npm install -g puppeteer-headless-cli
 ```
 
 ## Usage

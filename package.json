@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-headless-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A better maintained command-line wrapper for generating PDF prints and PNG screenshots with Puppeteer. Works on Apple M1 silicon chips.",
   "bin": {
     "puppeteer": "./index.js"
