@@ -9,7 +9,7 @@ const isUrl = require('is-url');
 const commonOptions = {
     'sandbox': {
         boolean: true,
-        default: true
+        default: false
     },
     'timeout': {
         default: 30 * 1000,
@@ -192,7 +192,7 @@ function buildLaunchOptions({ sandbox }) {
     const args = [];
 
     if (sandbox === false) {
-        args.push('--no-sandbox', '--disable-setuid-sandbox');
+        args.push('--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--single-process');
     }
 
     return {
