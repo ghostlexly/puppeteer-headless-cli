@@ -1,13 +1,13 @@
 {
   "name": "puppeteer-headless-cli",
   "version": "1.0.0",
-  "description": "A command-line wrapper for generating PDF prints and PNG screenshots with Puppeteer. Aims to be a easy replacement for the deprecated wkhtmltopdf.",
+  "description": "A better maintained command-line wrapper for generating PDF prints and PNG screenshots with Puppeteer. Works on Apple M1 silicon chips.",
   "bin": {
     "puppeteer": "./index.js"
   },
   "author": "GhostLexly",
   "license": "MIT",
-  "repository": "ghostlexly/puppeteer-cli",
+  "repository": "ghostlexly/puppeteer-headless-cli",
   "dependencies": {
     "file-url": "^3.0.0",
     "is-url": "^1.2.4",

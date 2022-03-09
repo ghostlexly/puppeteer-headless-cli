@@ -1,7 +1,7 @@
 # puppeteer-headless-cli
 
-A better maintained cli for puppeteer. Works on MacOS M1 Silicon.
-A command-line wrapper for generating PDF prints and PNG screenshots with [Puppeteer](https://developers.google.com/web/tools/puppeteer). Aims to be a easy replacement for the deprecated wkhtmltopdf.
+A better maintained cli for puppeteer. 
+A command-line wrapper for generating PDF prints and PNG screenshots with [Puppeteer](https://developers.google.com/web/tools/puppeteer). Aims to be a easy replacement for the deprecated wkhtmltopdf. Works on MacOS M1 Silicon.
 
 ## Install
 
