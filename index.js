@@ -11,8 +11,8 @@ const commonOptions = {
         boolean: true,
         default: false
     },
-    'timeout': {
-        default: 60,
+    'timeout': { // in milliseconds
+        default: 1000 * 300, // 300 secondes
         number: true,
     },
     'wait-until': {
