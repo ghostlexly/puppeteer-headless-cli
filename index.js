@@ -12,7 +12,7 @@ const commonOptions = {
         default: false
     },
     'timeout': {
-        default: 30 * 1000,
+        default: 60,
         number: true,
     },
     'wait-until': {
