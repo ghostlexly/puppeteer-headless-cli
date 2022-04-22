@@ -12,12 +12,12 @@ const commonOptions = {
         default: false
     },
     'timeout': { // in milliseconds
-        default: 1000 * 300, // 300 secondes
+        default: 1000 * 60, // 60 secondes
         number: true,
     },
     'wait-until': {
         string: true,
-        default: 'load'
+        default: 'networkidle0'
     },
     'cookie': {
         describe: 'Set a cookie in the form "key:value". May be repeated for multiple cookies.',
