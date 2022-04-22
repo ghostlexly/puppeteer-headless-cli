@@ -117,7 +117,8 @@ async function print(argv) {
     }
 
     console.error(`Loading ${url}`);
-    await page.goto(url, { waitUntil: ['networkidle0'] });
+    await page.setDefaultNavigationTimeout(60000);
+    await page.goto(url, { waitUntil: ['load'] });
 
     console.error(`Writing ${argv.output || 'STDOUT'}`);
     const buffer = await page.pdf({
